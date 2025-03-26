@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "jest --passWithNoTests --watch",
-    "test:staged": "jest --passWithNoTests"
+    "test:staged": "npm test --findRelatedTests"
   },
   "keywords": [],
   "author": "",
