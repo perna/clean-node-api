@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:staged": "jest" 
   },
   "keywords": [],
   "author": "",
@@ -23,6 +24,7 @@
     "lint-staged": "^15.5.0",
     "standard": "^17.1.2",
     "ts-jest": "^29.3.0",
+    "ts-node": "^10.9.2",
     "ts-standard": "^12.0.2",
     "typescript": "^5.8.2",
     "typescript-eslint": "^8.28.0"
