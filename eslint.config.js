@@ -1,6 +1,6 @@
 import eslint from '@eslint/js';
 import tseslint from 'typescript-eslint'
-import tsStandard from 'eslint-plugin-standard';
+import standard from 'ts-standard';
 
 export default tseslint.config({
   ...eslint.configs.recommended,
@@ -11,9 +11,9 @@ export default tseslint.config({
     'eqeqeq': 'error',
     '@typescript-eslint/no-explicit-any': 'warn',
   },
-  plugins: [
-    tsStandard,
-  ],
+  plugins: {
+    standard: standard
+  },
   overrides: [
     {
       files: ['*.ts'],
