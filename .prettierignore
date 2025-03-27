@@ -2,3 +2,7 @@ dist
 coverage
 package-lock.json
 node_modules
+.gitignore
+.prettierignore
+.prettierrc
+**/*+(js|json|ts)

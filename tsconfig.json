@@ -1,17 +1,21 @@
 {
-    "compilerOptions": {
-        "outDir": "./dist/",
-        "module": "CommonJS",
-        "target": "ES2019",
-        "esModuleInterop": true,
-        "sourceMap": true,
-        "rootDirs": ["src", "tests"],
-        "baseUrl": "src",
-        "paths": {
-            "@tests/*": ["../tests/*"],
-            "@/*": ["*"]
-        },		
-    },
-    "include": ["src/**/*.ts"],	
-    "exclude": ["node_modules"]
+  "compilerOptions": {
+    "strict": true,
+    "strictNullChecks": true,
+    "outDir": "./dist/",
+    "module": "esnext",
+    "target": "ES2020",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "rootDirs": ["src", "tests"],
+    "baseUrl": "src",
+    "explainFiles": true,
+    "skipLibCheck": true,
+    "paths": {
+      "@tests/*": ["../tests/*"],
+      "@/*": ["*"]
+    }
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist"]	
 }
